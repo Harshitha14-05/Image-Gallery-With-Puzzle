@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drag & Drop Puzzle Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧩 Image Puzzle Gallery</h1>
+  <div class="gallery">
+    <img src="images/img1.jpeg" class="puzzle-img" alt="img1">
+    <img src="images/img2.jpeg" class="puzzle-img" alt="img2">
+    <img src="images/img3.jpeg" class="puzzle-img" alt="img3">
+    <img src="images/img4.jpeg" class="puzzle-img" alt="img4">
+    <img src="images/img5.jpeg" class="puzzle-img" alt="img5">
+    <img src="images/img6.jpeg" class="puzzle-img" alt="img6">
+    <img src="images/img7.jpeg" class="puzzle-img" alt="img7">
+    <img src="images/img8.jpeg" class="puzzle-img" alt="img8">
+    <img src="images/img9.jpeg" class="puzzle-img" alt="img9">
+    <img src="images/img10.jpeg" class="puzzle-img" alt="img10">
+  </div>
+
+  <div id="puzzle-container" class="hidden">
+    <h2>Arrange the Puzzle (Drag & Drop)</h2>
+    <div id="puzzle-grid"></div>
+    <p id="message"></p>
+    <button onclick="closePuzzle()">Close Puzzle</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
